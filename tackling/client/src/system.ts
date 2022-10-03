@@ -2,7 +2,7 @@ import * as alt from 'alt-client';
 import { TACKLING_INTERACTIONS } from '../../shared/events';
 import { TACKLING_CONFIG } from '../../shared/config';
 import { KeybindController } from '../../../../client/events/keyup';
-import { KEY_BINDS } from '../../../../shared/enums/keyBinds';
+import { KEY_BINDS } from '../../shared/keyBinds';
 
 class Logger {
     static log(msg: string) {
